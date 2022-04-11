@@ -1,0 +1,95 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: black;
+}
+
+hr {
+  border-top: 2px solid aqua;
+}
+
+.marca {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+
+.navbar-custom {
+  background: rgba(255, 255, 255, 0.05);
+  border: none;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+}
+
+.navbar-change {
+  background: rgba(23, 163, 184, 0.9);
+}
+
+.subtitulo {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+
+.about-us-icons {
+  background-color: #17A3B8;
+}
+
+.about-us-desc {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+.titulo-tarjeta {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+}
+
+.texto-tarjeta {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+.my-card {
+  border-color: #17A3B8;
+}
+
+.card-body {
+  background-color: #17A3B8;
+}
+
+.form1 {
+  background-color: #17A3B8;
+}
+
+.boton-formulario {
+  color: white;
+  border-color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+footer {
+  background-color: #17A3B8;
+}
+
+.marca-footer {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+
+/* centrar entiqueta de las redes sociales en pantallas pequeñas */
+@media only screen and (max-width: 767px) {
+  .rrss {
+    margin: auto;
+    display: block;
+    position: absolute;
+    right: 17%;
+    margin-bottom: 2%;
+  }
+}
